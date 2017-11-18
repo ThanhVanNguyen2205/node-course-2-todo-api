@@ -4,7 +4,7 @@ const {mongoose} = require('C:/Users/Thanh Van/Documents/Javascript/Nodejs/node-
 let Todo = mongoose.model('Todo', {
     text: {
         type: String,
-        require:true,
+        required: true,
         minlength:1,
         trim:true
     },
